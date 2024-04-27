@@ -1,6 +1,6 @@
 # 🎧 Podcastify
 
-No time to read📖? No problem, listen instead 🎧
+Too busy to read📖? Just listen with Podcastify🎧.
 
 ## Features
 
