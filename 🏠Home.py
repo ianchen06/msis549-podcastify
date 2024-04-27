@@ -6,10 +6,11 @@ st.set_page_config(page_title="Podcastify", page_icon="🎧", layout="wide")
 
 col1, col2 = st.columns(2)
 with col1:
-  st.title("🎧 Podcastify")
-  st.header("Too busy to read📖? Just listen with Podcastify🎧.")
-  st.write("Enter the URL of an article to generate a podcast.")
-  url = st.text_input("Enter URL")
+    st.title("🎧 Podcastify")
+    st.header("Too busy to read📖? Just listen with Podcastify🎧.")
+    st.write("Enter the URL of an article to generate a podcast.")
+    url = st.text_input("Enter URL")
+    is_generate = st.button("Generate Podcast")
 
 with col2:
    st.image("./image.png")
@@ -19,7 +20,7 @@ data = {
   "keywords": ["in-context learning", "large language models"]
 }
 
-if url:
+if url and is_generate:
     content = newspaper.article(url)
 
     st.header("Summary")

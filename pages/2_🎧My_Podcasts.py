@@ -5,9 +5,9 @@ num_days = 7
 st.title("🎧 MyPodcasts")
 
 podcasts = [
-    {"title": "Tech Deepdive - What is in-context learning?", "date": "2024-04-27"},
-    {"title": "Tech Trends", "date": "2024-04-26"},
-    {"title": "Health & Wellness", "date": "2024-04-25"},
+    {"title": "Code and Coffee: Morning Thoughts on Tech and Trends", "date": "2024-04-27"},
+    {"title": "Asanas Abroad: Exploring Yoga Retreats Around the Globe", "date": "2024-04-26"},
+    {"title": "Onsen Escapades: Soaking in the Serenity of Japan’s Hot Springs", "date": "2024-04-25"},
 ]
 
 for p in podcasts:

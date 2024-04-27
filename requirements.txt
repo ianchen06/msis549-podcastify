@@ -1,3 +1,4 @@
 streamlit
 newspaper4k
 lxml_html_clean
+duckduckgo_search
