@@ -15,7 +15,7 @@ for p in podcasts:
     st.write(f"{p['date']}")
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image("https://via.placeholder.com/150")
+        st.image("./mic.png")
     with col2:
         st.audio(f'./podcasts/{p["date"]}.wav', format='audio/wav')
         st.write(f"Description: This podcast covers the latest trends in AI, from machine learning to business ideas.")
